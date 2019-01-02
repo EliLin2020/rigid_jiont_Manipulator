@@ -1,0 +1,2 @@
+# rigid_jiont_Manipulator
+二自由度机械臂轨道追踪问题
