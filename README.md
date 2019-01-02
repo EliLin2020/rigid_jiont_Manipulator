@@ -45,16 +45,15 @@ $$
 \begin{equation}
 \left\lbrace 
 \begin{array}{l}
-u'(t)=f(t,u), a\leq t\leq b \\
-& u(a)=u_{0}
+$ u'(t)=f(t,u), a\leq t\leq b $
+$ u(a)=u_{0} $
 \end{array}
 \right. 
 \end{equation}
 计算公式如下
-\begin{equation}
-\left\lbrace 
-\begin{array}{l}
-k_{1}=f(t_{i},u_{i}) \\
-& k_{2}=f(t_{i}+h/2,u_{i}+hk_{1}/2) \\
-\right. 
-\end{equation}
+$ k_{1}=f(t_{i},u_{i}) $
+$ k_{2}=f(t_{i}+h/2,u_{i}+hk_{1}/2) $
+$ k_{3}=f(t_{i}+h/2,u_{i}+hk_{2}/2) $
+$ k_{4}=f(t_{i}+h,u_{i}+hk_{3}) $
+$ u_{i+1}=u_{i}+h(k_{1}+2k_{2}+2k_{3}+k_{4})/6 $
+
