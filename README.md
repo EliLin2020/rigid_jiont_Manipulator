@@ -59,5 +59,5 @@ k_{2}=f(t_{i}+h/2,u_{i}+hk_{1}/2)\\
 k_{3}=f(t_{i}+h/2,u_{i}+hk_{2}/2)\\
 k_{4}=f(t_{i}+h,u_{i}+hk_{3})\\
 u_{i+1}=u_{i}+h(k_{1}+2k_{2}+2k_{3}+k_{4})/6
-\right. 
+\right 
 \end{equation}
