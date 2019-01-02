@@ -17,8 +17,8 @@ $$
 - $ C(q,\dot{q})= -m_{2}l_{1}l_{c2}\sin q_{2} $ 
 $$
 \bigl[\begin{matrix}
-\dot(q_{2}) & \dot(q_{1})+\dot(q_{2}) \\ ;
--\dot(q_{1}) & 0
+\dot(q)_{2} & \dot(q)_{1}+\dot(q)_{2} \\ ;
+-\dot(q)_{1} & 0
 \end{matrix}\bigr] 
 $$
 ## PID控制率 
