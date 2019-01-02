@@ -10,7 +10,7 @@
 $$ 
 \bigl[\begin{matrix}
 m_{1}l_{c1}^{2}+m_{2}(l_{1}^{2}+l_{c2}^{2}+2l_{1}l_{c2} \cos q_{2})+I_{1}+I_{2} & m_{2}(l_{c2}^{2}+l_{1}l_{c2} \cos q_{2})+I_{2} 
-\\ ;
+\\ &
 m_{2}(l_{c2}^{2}+l_{1}l_{c2} \cos q_{2})+I_{2} & m_{2}l_{c2}^{2}+I_{2} 
 \end{matrix}\bigr] 
 $$ 
@@ -18,7 +18,7 @@ $$
 $$
 -m_{2}l_{1}l_{c2}\sin q_{2}
 \bigl[\begin{matrix}
-\dot{q_{2}} & \dot{q_{1}}+\dot{q_{2}} \\ ; -\dot{q_{1}} & 0
+\dot{q_{2}} & \dot{q_{1}}+\dot{q_{2}} \\ & -\dot{q_{1}} & 0
 \end{matrix}\bigr] 
 $$
 - $ I_{1}=m_{1}l_{1}^{2}/12 , I_{2}=m_{2}l_{2}^{2}/12 $
@@ -46,7 +46,7 @@ $$
 \left\lbrace 
 \begin{array}{l}
 u'(t)=f(t,u), a\leq t\leq b \\
-u(a)=u_{0}
+& u(a)=u_{0}
 \end{array}
 \right. 
 \end{equation}
@@ -55,9 +55,9 @@ u(a)=u_{0}
 \left\lbrace 
 \begin{array}{l}
 k_{1}=f(t_{i},u_{i}) \\
-k_{2}=f(t_{i}+h/2,u_{i}+hk_{1}/2)\\
-k_{3}=f(t_{i}+h/2,u_{i}+hk_{2}/2)\\
-k_{4}=f(t_{i}+h,u_{i}+hk_{3})\\
-u_{i+1}=u_{i}+h(k_{1}+2k_{2}+2k_{3}+k_{4})/6
+& k_{2}=f(t_{i}+h/2,u_{i}+hk_{1}/2)\\
+& k_{3}=f(t_{i}+h/2,u_{i}+hk_{2}/2)\\
+& k_{4}=f(t_{i}+h,u_{i}+hk_{3})\\
+& u_{i+1}=u_{i}+h(k_{1}+2k_{2}+2k_{3}+k_{4})/6
 \right 
 \end{equation}
