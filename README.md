@@ -18,7 +18,7 @@ $$
 $$
 \bigl[\begin{matrix}
 \dot(q_{2}) & \dot(q_{1})+\dot(q_{2}) \\ ;
-- \dot(q_{1}) & 0
+-\dot(q_{1}) & 0
 \end{matrix}\bigr] 
 $$
 ## PID控制率 
