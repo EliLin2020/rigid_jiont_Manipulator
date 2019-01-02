@@ -49,6 +49,7 @@ u'(t)=f(t,u), a\leq t\leq b \\
 u(a)=u_{0}
 \end{array}
 \right. 
+\end{equation}
 计算公式如下
 \begin{equation}
 \left\lbrace 
