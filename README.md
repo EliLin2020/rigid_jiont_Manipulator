@@ -14,9 +14,8 @@ m_{1}l_{c1}^{2}+m_{2}(l_{1}^{2}+l_{c2}^{2}+2l_{1}l_{c2} \cos q_{2})+I_{1}+I_{2} 
 m_{2}(l_{c2}^{2}+l_{1}l_{c2} \cos q_{2})+I_{2} & m_{2}l_{c2}^{2}+I_{2} 
 \end{matrix}\bigr] 
 $$ 
-- $ C(q,\dot{q})= $ 
+- $ C(q,\dot{q})= -m_{2}l_{1}l_{c2}\sin q_{2} $ 
 $$
--m_{2}l_{1}l_{c2}\sin q_{2}
 \bigl[\begin{matrix}
 \dot(q_{2}) & \dot(q_{1})+\dot(q_{2}) \\ ;
 - \dot(q_{1}) & 0
